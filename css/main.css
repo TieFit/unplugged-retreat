@@ -147,6 +147,14 @@
     width: 90%;
     margin: 50px 0;
   }
+
+  img { 
+    width: 100%;
+  }
+   
+  figure {
+    margin: 0;
+  }
   
   /* -------------------- Base Header - Footer Styles -------------------- */
   
@@ -165,6 +173,14 @@
   
   header .content-wrapper {
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+  header figure {
+    width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -238,6 +254,9 @@
   /* Hero Area */
   
   .hero-area {
+    background: url(../img/woman-on-bridge.png) center no-repeat;
+    background-size: cover;
+    min-height: 500px;
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
@@ -289,6 +308,8 @@
   /* Features */
   
   .features {
+    background: url(../img/forest-floor.png) center no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
@@ -327,6 +348,10 @@
   .reviews h2 {
     margin-bottom: 40px;
     line-height: 1;
+  }
+
+  .reviews figure {
+   margin-bottom: 20px;
   }
   
   .reviews h3 {
@@ -526,6 +551,10 @@
       display: none;
     }
     /* Hero Area */
+
+    .hero-area {
+      min-height: 600px;
+    }
   
     .hero-area h1 {
       font-size: 3em;
@@ -692,7 +721,7 @@
     /* Hero */
     .hero-area h1 {
       font-size: 3.75em;
-      width: 60%;
+      width: 80%;
   }
   
     /* Aside */
