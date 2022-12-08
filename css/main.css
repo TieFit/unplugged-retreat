@@ -546,12 +546,12 @@
     h2 {
       font-size: 2.25em;
       line-height: 1.333;
-  }
+    }
   
-  h3 {
+    h3 {
       font-size: 1.5em;
       line-height: 1.25;
-  }
+    }
   
     /* Header */
     header {
@@ -569,7 +569,7 @@
     }
   
     header nav {
-      width: 20%;
+      width: 33%;
     }
   
     header nav ul {
