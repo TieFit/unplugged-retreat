@@ -631,10 +631,12 @@
     }
   
     .reviews h2 {
+      margin: 0 0 40px;
       width: 85%;
     }
   
-    .reviews article div {
+    .reviews article div,
+    .reviews article figure {
       width: 49%;
     }
   
